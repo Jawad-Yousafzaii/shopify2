@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./tailwind.html/input.css">
+    <title>Manago style sheet</title>
+</head>
+
+<body>
+    <nav class="relative containor mx-auto p-6">
+        <div class="flex items-center justify-between">
+            <div class="pt-2">
+                <img src="img/logo.svg" alt="">
+            </div>
+            <div class="hidden md:flex  space-x-6">
+                <a href="#" class=" cursor-pointer hover:text-blue-300">Pricing</a>
+                <a href="#" class="cursor-pointer hover:text-blue-300">Product</a>
+                <a href="#" class="cursor-pointer hover:text-blue-300">About us</a>
+                <a href="#" class="cursor-pointer hover:text-blue-300">Careers</a>
+                <a href="#" class="cursor-pointer hover:text-blue-300">Comunity</a>
+            </div>
+            <a href="#"
+                class="hidden md:block p-3 px-6 pt-2 rounded-full text-white bg-orange-500 hover:bg-orange-300">Get
+                started</a>
+
+                <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+                </button>
+        </div>
+        <div class="md:hidden">
+            <div id="menu"
+             class="absolute  flex-col  text-center hidden  self-end md:hidden py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                <a href="#">Pricing</a>
+                <a href="#">Product</a>
+                <a href="#">About</a>
+                <a href="#">Careers</a>
+                <a href="#">Comunity</a>
+            </div>
+        </div>
+    </nav>
+    <selction id="hero">
+        <div class="containor flex flex-col-reverse md:flex-row item-center p-6 mx-auto mt-10 space-y-0 md:space-y-0">
+            <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+                <h1 class="max-w-md text-4xl font-bold text-center md:text-left">
+                    Bring everyone together to build better projects
+                </h1>
+                <p class="max-w-sm text-center text-blue-400 md:text-left">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque exercitationem soluta omnis tenetur
+                    voluptas maiores asperiores cupiditate natus, quibusdam voluptates explicabo placeat numquam?
+                </p>
+                <div class="flex justify-centeer md:justify-start">
+                    <a href="" class=" p-3 px-6 pt-2 rounded-full text-white bg-orange-500 hover:bg-orange-300">Get
+                        started</a>
+                </div>
+            </div>
+            <div class="md:h-1/2">
+                <img src="img/illustration-intro.svg" alt="">
+            </div>
+        </div>
+    </selction>
+    <section id="features">
+        <div class="containor flex flex-col px-4 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row">
+
+            <div class="flex-col space-y-12 md:w-1/2">
+                <h2 class="max-w-md text-4xl font-bold text-center md:text-left"> what's diffrent about manage</h2>
+                <p class="max-w-sm text-center text orange md:text-left">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus voluptates voluptatum, quibusdam at
+                    nemo placeat.
+                </p>
+            </div>
+
+            <div class="flex flex-col space-y-8 md:w-1/2">
+                <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+                    <div class="rounded-l-full bg-orange-500 md:bg-transparent">
+                        <div class="flex item-center space-x-2">
+                            <div class="px-4 py-2 text-white rounded-full md:py-1 bg-red-300">01</div>
+                            <h3 class="text-base  font-bold md:mb-4 md:hidden">Track company-wide progress</h3>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="hidden mb-4 text-lg font-bold md:block">
+                            company-wide progress
+                        </h3>
+                        <p class="text-orange-300">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem beatae, blanditiis vero
+                            iure earum maxime neque hic vitae quo, ea ipsa omnis!
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+                    <div class="rounded-l-full bg-orange-500 md:bg-transparent">
+                        <div class="flex item-center space-x-2">
+                            <div class="px-4 py-2 text-white rounded-full md:py-1 bg-red-300">02</div>
+                            <h3 class="text-base  font-bold md:mb-4 md:hidden">Advance build-in reports</h3>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="hidden mb-4 text-lg font-bold md:block">
+                            Advance built-in reports
+                        </h3>
+                        <p class="text-orange-300">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem beatae, blanditiis vero
+                            iure earum maxime neque hic vitae quo, ea ipsa omnis!
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+                    <div class="rounded-l-full bg-orange-500 md:bg-transparent">
+                        <div class="flex item-center space-x-2">
+                            <div class="px-4 py-2 text-white rounded-full md:py-1 bg-red-300">03</div>
+                            <h3 class="text-base  font-bold md:mb-4 md:hidden">Advance build-in reports</h3>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="hidden mb-4 text-lg font-bold md:block">
+                            Advance build-in reports
+                        </h3>
+                        <p class="text-orange-300">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem beatae, blanditiis vero
+                            iure earum maxime neque hic vitae quo, ea ipsa omnis!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="testimonials">
+        <div class="max-w-6xl px-5 mx-auto mt-32 text-center">
+            <h2 class="text-4xl font-bold text-center">
+                what's Diffrent About Manage?
+            </h2>
+            <div class="flex flex-col mt-24 md:flex-row md:space-x-6">
+                <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-orange-300 md:w-1/3">
+                    <img src="img/avatar-anisha.png" class="w-16 -mt-14" alt="">
+                    <h5 class="text-lg font-bold">Anisha li</h5>
+                    <p class="text-sm text-white">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores temporibus optio, culpa sit,
+                        aspernatur voluptatum minima perferendis iste, illum quis sequi tempora maxime?
+                    </p>
+                </div>
+
+                <div class="hidden flex-col items-center p-6 space-y-6 rounded-lg bg-orange-300 md:flex md:w-1/3">
+                    <img src="img/avatar-ali.png" class="w-16 -mt-14" alt="">
+                    <h5 class="text-lg font-bold">Alia</h5>
+                    <p class="text-sm text-white">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores temporibus optio, culpa sit,
+                        aspernatur voluptatum minima perferendis iste, illum quis sequi tempora maxime?
+                    </p>
+                </div>
+
+
+                <div class="hidden flex-col items-center p-6 space-y-6 rounded-lg bg-orange-300 md:flex md:w-1/3">
+                    <img src="img/avatar-richard.png" class="w-16 -mt-14" alt="">
+                    <h5 class="text-lg font-bold">Richard</h5>
+                    <p class="text-sm text-white">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores temporibus optio, culpa sit,
+                        aspernatur voluptatum minima perferendis iste, illum quis sequi tempora maxime?
+                    </p>
+                </div>
+            </div>
+            <div class="my-16"><a href=""
+                    class=" p-3 px-6 pt-2 rounded-full text-white bg-orange-500 hover:bg-orange-300">Get
+                    started</a></div>
+        </div>
+    </section>
+    <section id="cta" class="bg-orange-300">
+        <div
+            class="containor flex flex-col item-center justify-between px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0">
+            <h2 class="text-5xl font-bold leading-tight text-center text-white md:text-4xl md:max-w-xl md:textleft">
+                Simply how your team works today
+            </h2>
+            <div>
+                <a href=""
+                    class=" p-3 px-6 pt-2 rounded-full text-white shadow-2xl bg-orange-500 hover:bg-orange-300">Get
+                    started</a>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-black">
+        <div
+            class="containor flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0 ">
+            <div
+                class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
+                <div class="mx-auto my-6 text-center text-white md:hidden ">Copyright &copy;,2024, All Rights reserved</div>
+                <div>
+                     <img src="img/logo-white.svg" class="h-8" alt="">
+                </div>
+            </div>
+            <div class="flex justify-center space-x-4">
+                <a href="#">
+                    <img src="img/icon-facebook.svg" alt="">
+                </a>
+                <a href="#">
+                    <img src="img/icon-youtube.svg" alt="">
+                </a>
+                <a href="#">
+                    <img src="img/icon-twitter.svg" alt="">
+                </a>
+                <a href="#">
+                    <img src="img/icon-pinterest.svg" alt="">
+                </a>
+                <a href="#">
+                    <img src="img/icon-instagram.svg" alt="">
+                </a>
+            </div>
+            <div class="flex justify-around space-x-32">
+                <div class="flex flex-col space-y-3 text-white">
+                    <a href="" class="hover:text-orange-400 text-white">Home</a>
+                    <a href="" class="hover:text-orange-400 text-white">Pricing</a>
+                    <a href="" class="hover:text-orange-400 text-white">Product</a>
+                    <a href="" class="hover:text-orange-400 text-white">About</a>
+                </div>
+            </div>
+            <div class="flex justify-around space-x-32">
+                <div class="flex flex-col space-y-3 text-white">
+                    <a href="" class="hover:text-orange-400 text-white">Careers</a>
+                    <a href="" class="hover:text-orange-400 text-white">Comunity</a>
+                    <a href="" class="hover:text-orange-400 text-white">Privacy policy</a>
+                   
+                </div>
+            </div>
+            <div class="flex flex-col justify-between">
+                <form>
+                    <div class="flex space-x-3">
+                        <input type="text" class="flex-1 px-4 rounded-full focus:outline-none" placeholder="Updated in your inbox"
+                        />
+                        <button class="px-6 py-2 text-white rounded-full bg-orange-400 hover:bg-orange-300 focus:outline-none">Go</button>
+                    </div>
+                </form>
+                <div class="hidden text-white md:block">
+                    Copyright &copy; 2042, All Rights reserved
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./tailwind.html/js/script.js"></script>
+</body>
+
+</html>
